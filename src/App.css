@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000 ;
+    padding: 20px;
+    box-shadow: 0 10px 10px 0 solid #000;
+}
+
+.price-card{
+    margin: 3% 70px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 1px solid #000;
+}
+
+.price-card i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-card span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo span{
+    color: #4a524a;
+    font-weight: 500;
+}
+
+.logo-image{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo-image img{
+    width: 50px;
+    height: 50px;
+}
+
+.value{
+    padding: 20px;
+}
+
+.value h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.value .dprice h3{
+    color: #999794;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.value .dprice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.percentage{
+    border-radius: 20px;
+    background-color: #f6268a;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.time ul{
+    background-color: #fff;
+    line-height: 1.5;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.graph{
+    height: 200px;
+    margin: 3% 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.exchange{
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.buy, .sell{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 3% 10px;
+    border-radius: 10px;
+}
+
+.buy span, .sell span{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.buy .dollar{
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #699BF7;
+    font-weight: 700;
+    color: #fff;
+}
+
+.sell .dollar{
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #F6268A;
+    font-weight: 700;
+    color: #fff;
+}
+
+.buy h1, .sell h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    padding: 10px;
+}
+
+.footer{
+    margin-top: auto 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.footer-nav span{
+    font-size: 40px;
+    color: #000;
+}
+
+@media screen and (max-width: 6000px){
+    .price-card{
+        margin: 3% 10px;
+        max-height: 250px;
+    }
+}
